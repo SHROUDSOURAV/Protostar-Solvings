@@ -119,7 +119,7 @@ Program exited with code 051.
 Great the stack has overflown with **0x41** and the modified variable
 value has changed.<br>
 
-### Python script to solve the challenges
+### Python script to solve the challenge
 
 ```
 user@protostar:/opt/protostar/bin$ (python -c "print 'A'*65") | ./stack0
