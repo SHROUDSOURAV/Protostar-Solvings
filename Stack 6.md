@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 
 The **main()** calls **getpath()** function and the **buffer** variable is located in **getpath()**. The **gets** is vulnerable to Buffer Overflow and it takes **buffer** input. After filling the **buffer** we cannot directly go to stack address because of **stack address restrictions**.
 
-### **SOURCE CODE**
+### **SOLUTION**
 Below is the disassembly of the **getpath()** function.
 ```
 user@protostar:/tmp$ gdb -q /opt/protostar/bin/stack6
