@@ -22,6 +22,7 @@ int main(int argc, char **argv)
 
 The program takes command line input and there is a **buffer** variable which we can overflow since it takes input in vulnerable **gets()** function. But after overflowing the **buffer** where would we go? unlike the previous challenge there is **no win() function** so we need to return to a **stack address** and place our **shellcode** to get **ROOT SHELL**.
 
+### **SOURCE CODE**
 Below is the disassembly of the **main()** function
 ```
 user@protostar:/opt/protostar/bin$ gdb -q stack5
