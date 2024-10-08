@@ -72,7 +72,7 @@ Program received signal SIGSEGV, Segmentation fault.
 
 ```
 
-So our *Padding = 76**, meaning 76 bytes required to overwrite the instruction pointer. Lets append the address of our **win()** function but before that lets find the address of **win()** function.
+So our **Padding = 76**, meaning 76 bytes required to overwrite the instruction pointer. Lets append the address of our **win()** function but before that lets find the address of **win()** function.
 <br>
 To do that :-
 ```
