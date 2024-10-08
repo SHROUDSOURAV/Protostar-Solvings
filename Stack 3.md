@@ -36,7 +36,7 @@ We need to fill the **buffer** variable first then append the address of the **w
 
 ### **SOLUTION**
 
-Below is the disassembly of the **main()**function
+Below is the disassembly of the **main()** function
 ```
 user@protostar:/opt/protostar/bin$ gdb -q stack3
 Reading symbols from /opt/protostar/bin/stack3...done.
