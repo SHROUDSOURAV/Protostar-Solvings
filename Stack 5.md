@@ -1,7 +1,7 @@
 # PROTOSTAR : STACK 5
 [Protostar:Stack5](https://exploit.education/protostar/stack-five/)
 
-### **SOURCE CODE**
+### **SOLUTION**
 ```c
 #include <stdlib.h>
 #include <unistd.h>
