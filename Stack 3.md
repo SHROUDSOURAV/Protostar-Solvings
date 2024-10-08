@@ -89,8 +89,7 @@ Program received signal SIGSEGV, Segmentation fault.
 Now lets replace the last four bytes with the address of the **win()** function. Before replacing, lets find the address of the win function first.
 ```
 user@protostar:/opt/protostar/bin$ objdump -t stack3 | grep "win"
-08048424 g     F .text  00000014              win
-user@protostar:/opt/protostar/bin$ 
+08048424 g     F .text  00000014              win 
 ```
 
 
