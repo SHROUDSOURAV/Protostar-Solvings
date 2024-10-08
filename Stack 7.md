@@ -40,6 +40,7 @@ int main(int argc, char **argv)
 
 Same as the previous level the **main()** calls **getpath()** where **buffer** variable is and **gets** which is vulnerable to Buffer Overflow takes **buffer** as input. **Stack Address Restriction** is applied in the program so we need to bypass it by returning to the function itself.
 
+### **SOLUTION**
 Below is the disassembly of the **getpath()** function.
 ```
 user@protostar:/tmp$ gdb -q /opt/protostar/bin/stack7
