@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 
 We need to overflow the **buffer** variable and somehow reach the **win()** function but there is no pointer which we can overwrite present in the code so we need to figure out the **padding** required to overwrite the **instruction pointer/eip register** which will return to the **win()** function address. *Padding is the key*.
 
-### **SOURCE CODE**
+### **SOLUTION**
 Below is the disassembly of the **main()** function.
 ```
 user@protostar:/opt/protostar/bin$ gdb -q stack4
